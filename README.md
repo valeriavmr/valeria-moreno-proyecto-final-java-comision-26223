@@ -152,4 +152,7 @@ Body (JSON):
 | 204 No Content | Recurso eliminado correctamente. |
 | 404 Not Found | Artículo no encontrado. |
 
+### Demostración grabada
+https://youtu.be/4ojk0eZbj4Q
+
 **Creador** @valeriavmr
