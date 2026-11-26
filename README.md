@@ -37,11 +37,7 @@ La entidad `Articulo` contiene los siguientes atributos:
 
 La aplicación utiliza MySQL y requiere una base de datos llamada `techlabdb`.
 
-Primero, crea la base de datos ejecutando:
-
-```sql
-CREATE DATABASE techlabdb;
-```
+Primero, crea la base de datos ejecutando el archivo .sql llamado `techlabdb.sql` en tu motor de base de datos
 
 Luego, configura las credenciales de conexión en `application.properties`:
 
