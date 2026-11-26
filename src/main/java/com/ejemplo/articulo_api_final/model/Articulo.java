@@ -45,4 +45,14 @@ public class Articulo {
     public void setCantidadEnStock(int cantidadEnStock) {
         this.cantidadEnStock = cantidadEnStock;
     }
+
+    //Constructores
+    public Articulo() {
+    }
+
+    public Articulo(String nombre, double precio, int cantidadEnStock) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidadEnStock = cantidadEnStock;
+    }
 }

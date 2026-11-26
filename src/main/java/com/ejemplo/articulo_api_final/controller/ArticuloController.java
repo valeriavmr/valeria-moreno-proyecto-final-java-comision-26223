@@ -1,13 +1,10 @@
 package com.ejemplo.articulo_api_final.controller;
 
-import com.ejemplo.articulo_api_final.ArticuloApiFinalApplication;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 import com.ejemplo.articulo_api_final.service.ArticuloService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import com.ejemplo.articulo_api_final.model.Articulo;
 import java.util.List;
 import org.springframework.web.bind.annotation.PathVariable;
